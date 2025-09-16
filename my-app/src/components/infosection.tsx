@@ -14,6 +14,7 @@ export interface InfoDataItem {
 export interface InfoSectionProps {
   title: string;
   description: string;
+  image: string;
   infoData?: InfoDataItem[];
   cardSectionTitle?: string;
   textSectionTitle?: string;
@@ -30,6 +31,7 @@ export interface Section extends InfoSectionProps {
 const InfoSection: React.FC<InfoSectionProps> = ({
   title,
   description,
+  image,
   infoData,
   cardSectionTitle = "Details",
   textSectionTitle = "More Information",
@@ -43,7 +45,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({
     <div className="info-page">
       <div
         className="info-section"
-        style={{ backgroundImage: `url('/sample.png` }}
+        style={{ backgroundImage: `url('/${image}')` }}
       >
         <div className="info-text">
           <h1>{title}</h1>

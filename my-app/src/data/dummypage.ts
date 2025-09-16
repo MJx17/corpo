@@ -5,7 +5,7 @@ export const sections: Section[] = [
     path: "personal",
     title: "Personal",
     description: "Comprehensive personal banking services tailored for you.",
-    image: "personal.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: 'text',
@@ -38,7 +38,7 @@ export const sections: Section[] = [
     path: "philtrust-bankonline",
     title: "Philtrust BankOnline",
     description: "Access your accounts and perform transactions anytime, anywhere.",
-    image: "philtrust-bankonline.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: 'text',
@@ -77,7 +77,7 @@ export const sections: Section[] = [
     path: "instapay",
     title: "Instapay",
     description: "Fast and secure real-time fund transfers within the Philippines.",
-    image: "instapay.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: 'card',
@@ -114,7 +114,7 @@ export const sections: Section[] = [
     path: "pesonet",
     title: "PESONet",
     description: "Batch fund transfers settled within the day.",
-    image: "pesonet.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: 'card',
@@ -151,7 +151,7 @@ export const sections: Section[] = [
     path: "savings-deposit",
     title: "Savings and Deposit",
     description: "Grow your savings with competitive interest rates and flexible terms.",
-    image: "savings-deposit.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: 'card',
@@ -184,7 +184,7 @@ export const sections: Section[] = [
     path: "personal-trust-services",
     title: "Personal Trust Services",
     description: "Secure your assets and manage your estate efficiently.",
-    image: "personal-trust-services.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: 'text',
@@ -222,7 +222,7 @@ export const sections: Section[] = [
     path: "other-services",
     title: "Other Services",
     description: "A wide range of banking services designed to meet your unique needs.",
-    image: "other-services.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: 'card',
@@ -255,7 +255,7 @@ export const sections: Section[] = [
     path: "safety-deposit-box",
     title: "Safety Deposit Box",
     description: "Keep your valuables and important documents safe and secure.",
-    image: "safety-deposit-box.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: 'text',
@@ -285,148 +285,148 @@ export const sections: Section[] = [
     ],
   },
   {
-  path: "business",
-  title: "Business",
-  description: "Banking solutions tailored for your business growth and success.",
-  image: "business.jpg",
-  infoData: [
-    {
-      type: 'text',
-      heading: "Business Banking Overview",
-      content: "Our business banking services are designed to support companies of all sizes—from startups to large enterprises. We provide flexible financial solutions, customized account management, and expert advisory services that help you manage your cash flow, optimize working capital, and grow your business with confidence."
-    },
-    {
-      type: 'card',
-      title: "Business Accounts",
-      description: "Checking and savings accounts designed for businesses with added features."
-    },
-    {
-      type: 'card',
-      title: "Cash Management",
-      description: "Tools to manage your receivables, payables, and liquidity efficiently."
-    },
-    {
-      type: 'card',
-      title: "Merchant Services",
-      description: "Secure payment processing solutions tailored for your business."
-    },
-    {
-      type: 'text',
-      heading: "Why Choose Our Business Banking",
-      content: "We provide personalized banking experiences with dedicated relationship managers, easy online banking tools, and financial products crafted to meet your unique business needs. Our goal is to empower you with resources that help your business thrive in competitive markets."
-    },
-  ],
-},
-{
-  path: "corporate-loans",
-  title: "Corporate Loans",
-  description: "Flexible financing solutions to fuel your corporate growth.",
-  image: "corporate-loans.jpg",
-  infoData: [
-    {
-      type: 'text',
-      heading: "Loan Products",
-      list: [
-        "Working capital loans",
-        "Equipment financing",
-        "Project financing",
-        "Term loans",
-      ],
-    },
-    {
-      type: 'card',
-      title: "Competitive Interest Rates",
-      description: "Attractive rates with flexible repayment terms."
-    },
-    {
-      type: 'card',
-      title: "Customized Loan Solutions",
-      description: "Tailored financing options to match your corporate objectives."
-    },
-    {
-      type: 'card',
-      title: "Fast Approval Process",
-      description: "Streamlined application and quick decision-making."
-    },
-    {
-      type: 'text',
-      heading: "Benefits",
-      content: "Our corporate loan offerings are designed to support your business expansion, equipment acquisition, and working capital needs. With competitive rates and flexible terms, you get financing that aligns with your strategic plans and helps maintain operational stability."
-    },
-  ],
-},
-{
-  path: "international-services",
-  title: "International Services",
-  description: "Comprehensive services to support your global business needs.",
-  image: "international-services.jpg",
-  infoData: [
-    {
-      type: 'text',
-      heading: "Global Banking Solutions",
-      content: "We offer a wide range of international banking services, including foreign currency accounts, trade finance, international wire transfers, and foreign exchange solutions. Our network and expertise help you navigate global markets with ease and confidence."
-    },
-    {
-      type: 'card',
-      title: "Trade Finance",
-      description: "Letters of credit, guarantees, and export-import financing."
-    },
-    {
-      type: 'card',
-      title: "Foreign Exchange",
-      description: "Competitive rates for currency conversion and hedging."
-    },
-    {
-      type: 'card',
-      title: "International Wire Transfers",
-      description: "Secure and fast cross-border money transfers."
-    },
-    {
-      type: 'text',
-      heading: "Why Choose Our International Services",
-      content: "Our international banking team is committed to providing tailored support for your cross-border transactions. With access to a global network and personalized service, we ensure your international operations run smoothly and compliantly."
-    },
-  ],
-},
-{
-  path: "international-servoces",  // Assuming this is a typo duplicate? If so, you might want to merge or rename
-  title: "International Services (Alternate)",
-  description: "Extended international banking and trade support.",
-  image: "international-servoces.jpg",
-  infoData: [
-    {
-      type: 'text',
-      heading: "Extended Services",
-      content: "Beyond basic international banking, we provide specialized trade advisory, global cash management, and multi-currency financing solutions. Our services cater to complex international business requirements to streamline your operations worldwide."
-    },
-    {
-      type: 'card',
-      title: "Trade Advisory",
-      description: "Expert advice on international trade regulations and compliance."
-    },
-    {
-      type: 'card',
-      title: "Global Cash Management",
-      description: "Centralized management of your international cash flows."
-    },
-    {
-      type: 'card',
-      title: "Multi-Currency Financing",
-      description: "Loans and credit lines in multiple currencies to mitigate risk."
-    },
-    {
-      type: 'text',
-      heading: "Our Commitment",
-      content: "We understand the complexities of global business and are dedicated to providing innovative solutions and personalized service that meet your international banking needs efficiently and securely."
-    },
-  ],
-},
+    path: "business",
+    title: "Business",
+    description: "Banking solutions tailored for your business growth and success.",
+    image: "sample.png",
+    infoData: [
+      {
+        type: 'text',
+        heading: "Business Banking Overview",
+        content: "Our business banking services are designed to support companies of all sizes—from startups to large enterprises. We provide flexible financial solutions, customized account management, and expert advisory services that help you manage your cash flow, optimize working capital, and grow your business with confidence."
+      },
+      {
+        type: 'card',
+        title: "Business Accounts",
+        description: "Checking and savings accounts designed for businesses with added features."
+      },
+      {
+        type: 'card',
+        title: "Cash Management",
+        description: "Tools to manage your receivables, payables, and liquidity efficiently."
+      },
+      {
+        type: 'card',
+        title: "Merchant Services",
+        description: "Secure payment processing solutions tailored for your business."
+      },
+      {
+        type: 'text',
+        heading: "Why Choose Our Business Banking",
+        content: "We provide personalized banking experiences with dedicated relationship managers, easy online banking tools, and financial products crafted to meet your unique business needs. Our goal is to empower you with resources that help your business thrive in competitive markets."
+      },
+    ],
+  },
+  {
+    path: "corporate-loans",
+    title: "Corporate Loans",
+    description: "Flexible financing solutions to fuel your corporate growth.",
+    image: "sample.png",
+    infoData: [
+      {
+        type: 'text',
+        heading: "Loan Products",
+        list: [
+          "Working capital loans",
+          "Equipment financing",
+          "Project financing",
+          "Term loans",
+        ],
+      },
+      {
+        type: 'card',
+        title: "Competitive Interest Rates",
+        description: "Attractive rates with flexible repayment terms."
+      },
+      {
+        type: 'card',
+        title: "Customized Loan Solutions",
+        description: "Tailored financing options to match your corporate objectives."
+      },
+      {
+        type: 'card',
+        title: "Fast Approval Process",
+        description: "Streamlined application and quick decision-making."
+      },
+      {
+        type: 'text',
+        heading: "Benefits",
+        content: "Our corporate loan offerings are designed to support your business expansion, equipment acquisition, and working capital needs. With competitive rates and flexible terms, you get financing that aligns with your strategic plans and helps maintain operational stability."
+      },
+    ],
+  },
+  {
+    path: "international-services",
+    title: "International Services",
+    description: "Comprehensive services to support your global business needs.",
+    image: "sample.png",
+    infoData: [
+      {
+        type: 'text',
+        heading: "Global Banking Solutions",
+        content: "We offer a wide range of international banking services, including foreign currency accounts, trade finance, international wire transfers, and foreign exchange solutions. Our network and expertise help you navigate global markets with ease and confidence."
+      },
+      {
+        type: 'card',
+        title: "Trade Finance",
+        description: "Letters of credit, guarantees, and export-import financing."
+      },
+      {
+        type: 'card',
+        title: "Foreign Exchange",
+        description: "Competitive rates for currency conversion and hedging."
+      },
+      {
+        type: 'card',
+        title: "International Wire Transfers",
+        description: "Secure and fast cross-border money transfers."
+      },
+      {
+        type: 'text',
+        heading: "Why Choose Our International Services",
+        content: "Our international banking team is committed to providing tailored support for your cross-border transactions. With access to a global network and personalized service, we ensure your international operations run smoothly and compliantly."
+      },
+    ],
+  },
+  {
+    path: "international-servoces",  // Assuming this is a typo duplicate? If so, you might want to merge or rename
+    title: "International Services (Alternate)",
+    description: "Extended international banking and trade support.",
+    image: "sample.png",
+    infoData: [
+      {
+        type: 'text',
+        heading: "Extended Services",
+        content: "Beyond basic international banking, we provide specialized trade advisory, global cash management, and multi-currency financing solutions. Our services cater to complex international business requirements to streamline your operations worldwide."
+      },
+      {
+        type: 'card',
+        title: "Trade Advisory",
+        description: "Expert advice on international trade regulations and compliance."
+      },
+      {
+        type: 'card',
+        title: "Global Cash Management",
+        description: "Centralized management of your international cash flows."
+      },
+      {
+        type: 'card',
+        title: "Multi-Currency Financing",
+        description: "Loans and credit lines in multiple currencies to mitigate risk."
+      },
+      {
+        type: 'text',
+        heading: "Our Commitment",
+        content: "We understand the complexities of global business and are dedicated to providing innovative solutions and personalized service that meet your international banking needs efficiently and securely."
+      },
+    ],
+  },
 
- {
+  {
     path: "our-bank",
     title: "About Our Bank",
     description: "An overview of our bank’s identity, commitment, and services.",
-    image: "about-our-bank.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: "text",
@@ -443,11 +443,11 @@ export const sections: Section[] = [
 
 
 
- {
+  {
     path: "corporate-profile",
     title: "Corporate Profile",
     description: "An extensive overview of our company’s identity, operations, and strategic outlook.",
-    image: "corporate-profile.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: "text",
@@ -465,7 +465,7 @@ export const sections: Section[] = [
     path: "history",
     title: "History",
     description: "A thorough account of our company’s origins, development, and significant milestones.",
-    image: "history.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: "text",
@@ -483,7 +483,7 @@ export const sections: Section[] = [
     path: "mission-vision-values",
     title: "Mission, Vision and Values",
     description: "The principles and aspirations guiding our company’s growth and culture.",
-    image: "mission-vision-values.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: "text",
@@ -519,7 +519,7 @@ export const sections: Section[] = [
     path: "the-management",
     title: "The Management",
     description: "Introducing the leadership team steering the company towards success.",
-    image: "the-management.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: "text",
@@ -557,7 +557,7 @@ export const sections: Section[] = [
     path: "organizational-chart",
     title: "Organizational Chart",
     description: "A visual guide to our company’s structure and functional divisions.",
-    image: "organizational-chart.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: "text",
@@ -594,7 +594,7 @@ export const sections: Section[] = [
     path: "shareholding-structure",
     title: "Shareholding Structure",
     description: "Details on ownership distribution and shareholder categories.",
-    image: "shareholding-structure.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: "text",
@@ -632,7 +632,7 @@ export const sections: Section[] = [
     path: "articles-of-incorporation",
     title: "Articles of Incorporation, By-Laws and Amendments",
     description: "Legal framework and governance documents regulating company operations.",
-    image: "articles-of-incorporation.jpg",
+    image: "sample.png",
     infoData: [
       {
         type: "text",
@@ -682,47 +682,47 @@ export const sections: Section[] = [
     ]
   },
   {
-  path: "investors",
-  title: "Investor Relations",
-  description: "Key information and updates for current and potential investors.",
-  image: "investor-relations.jpg",
-  infoData: [
-    {
-      type: "text",
-      heading: "Investor Relations",
-      content: `
+    path: "investors",
+    title: "Investor Relations",
+    description: "Key information and updates for current and potential investors.",
+    image: "sample.png",
+    infoData: [
+      {
+        type: "text",
+        heading: "Investor Relations",
+        content: `
         At our bank, we believe transparency, accountability, and sustainable growth are the pillars of strong investor relations.
         We are committed to delivering long-term value for our shareholders through responsible governance and strategic investments.
         Our investor relations page provides timely financial reports, corporate disclosures, and performance updates to keep our investors well-informed.
         We invite investors to explore our growth story, leadership strategy, and commitment to financial excellence.
       `
-    },
-    {
-      type: "card",
-      title: "Incorporation Document",
-      description: "Establishes the company's legal existence and outlines its foundational structure.",
-  
-    },
-    {
-      type: "card",
-      title: "Corporate By-Laws",
-      description: "Defines internal governance policies, procedures, and organizational rules.",
-     
-    },
-    {
-      type: "card",
-      title: "Recent Amendments",
-      description: "Documents modifications and updates to original governance frameworks.",
+      },
+      {
+        type: "card",
+        title: "Incorporation Document",
+        description: "Establishes the company's legal existence and outlines its foundational structure.",
 
-    },
-    {
-      type: "card",
-      title: "Compliance Statements",
-      description: "Ensures all corporate actions align with legal and regulatory requirements.",
-   
-    }
-  ]
-}
+      },
+      {
+        type: "card",
+        title: "Corporate By-Laws",
+        description: "Defines internal governance policies, procedures, and organizational rules.",
+
+      },
+      {
+        type: "card",
+        title: "Recent Amendments",
+        description: "Documents modifications and updates to original governance frameworks.",
+
+      },
+      {
+        type: "card",
+        title: "Compliance Statements",
+        description: "Ensures all corporate actions align with legal and regulatory requirements.",
+
+      }
+    ]
+  }
 
 
 ];
