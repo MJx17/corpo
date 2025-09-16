@@ -45,7 +45,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({
     <div className="info-page">
       <div
         className="info-section"
-        style={{ backgroundImage: `url('/${image}')` }}
+        style={{ backgroundImage: `url('/sample.png` }}
       >
         <div className="info-text">
           <h1>{title}</h1>

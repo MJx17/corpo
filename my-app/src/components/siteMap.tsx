@@ -69,8 +69,7 @@ const renderMenu = (items: any[], parentKey = 'root') => {
       <div className="sitemap-content">
         <div className="left-side">
           <div className="sitemap-logo">
-            <img
-              src="https://bdcorpsite.philtrust.com.ph/themes/bartik_ptc/images/ptclogo_2018_over100.png"
+           <img src="/sitemap-logo.png"
               alt="Company Logo"
               className="logo-img"
             />
