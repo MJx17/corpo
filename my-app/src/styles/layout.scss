@@ -1,0 +1,169 @@
+.css-dip3t8 {
+  background-color: transparent !important;
+}
+
+.css-8i0j0q {
+  background-color: transparent !important;
+}
+
+.css-1t8x7v1 > .ps-menu-button:hover {
+  background-color: #242424 !important;
+}
+
+/* Navbar Container */
+.admin-navbar-container {
+  width: 100%;
+  padding: 26px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background: #242424;
+  color: #ffcc00;
+
+  .sidebar-toggle-icon {
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+
+    svg {
+      color: white;
+      font-size: 40px;
+    }
+  }
+}
+
+/* Layout Structure */
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+}
+
+.layout-content {
+  display: flex;
+  flex: 1;
+}
+
+.main-content {
+  flex: 1;
+  margin-top: 64px; // Same as navbar height
+  padding: 20px;
+  padding-top: 60px; // Extra top padding for safety
+  overflow-y: auto;
+  position: relative;
+  z-index: 1;
+
+  @media (max-width: 600px) {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* Sidebar Backdrop */
+.sidebar-backdrop {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 64px);
+  background-color: transparent;
+  z-index: 4;
+}
+
+/* Checkbox Alignment */
+.checkbox-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    padding-left: 10px;
+  }
+}
+
+/* Desktop Nav Links */
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  justify-content: center;
+
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+
+    &:hover,
+    &.active {
+      color: #ffcc00;
+    }
+  }
+}
+
+/* Mobile Menu */
+.basic-menu-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.MuiMenu-list li a {
+  text-decoration: none;
+  color: #ffcc00;
+  display: block;
+  padding: 10px 20px;
+
+  &:hover {
+    color: #242424;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+//PublicLayout SCSS
+
+/* .public-layout-container keeps everything aligned */
+/* Parent container for public layout */
+$max-2k: 1920px;
+$max-4k: 2560px;
+
+.public-layout-container {
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+// Centered wrapper only for ultra-wide screens
+.body-container {
+  width: 100%;
+
+  @media (min-width: 2560px) { // 2K and above
+    max-width: $max-2k;
+    margin: 0 auto;   // centers content
+    padding: 0 1rem;  // optional breathing room
+  }
+
+  @media (min-width: 3840px) { // 4K
+    max-width: $max-4k;
+  }
+}
+.public-main-content {
+  flex: 1;
+  
+}
