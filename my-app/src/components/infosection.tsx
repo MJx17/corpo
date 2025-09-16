@@ -55,7 +55,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            {deszcription}
+            {description}
           </motion.p>
           {buttonText && onButtonClick && (
             <button onClick={onButtonClick}>{buttonText}</button>
